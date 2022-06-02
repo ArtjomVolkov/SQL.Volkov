@@ -3,7 +3,11 @@ a.select from * tabel
 b.select * fram tabel
 c.from * select tabel
 d.select * from tabel
+<<<<<<< HEAD
 Ответ d
+=======
+Ответ: d
+>>>>>>> 486ea02ded17c7ee98af2fd40d8711ae4f9ed8b3
 
 2.Что-то здесь пропущенно найди.
 USE protseduur;
@@ -12,9 +16,18 @@ CREATE PROCEDURE AddProduct
     @aadress text,
     @telefon varchar(13),
     @regNumber varchar(10)
+
 AS
 INSERT INTO kool(koolNimi, aadress, kontaktTeLEFON,regNumber) 
 VALUES(@nimi, @aadress, @telefon, @regNumber)
+<<<<<<< HEAD
 GO 
 3.Какие ограничения ты знаешь?
 Not null , Unique , foreagn key , primary key , check
+=======
+GO
+
+3.Какие ограничения ты знаешь?
+
+Ответ: PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, CHECK
+>>>>>>> 486ea02ded17c7ee98af2fd40d8711ae4f9ed8b3

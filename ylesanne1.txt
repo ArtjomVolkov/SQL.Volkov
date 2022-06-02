@@ -1,8 +1,9 @@
-1.Выбери что написать правильно.
+﻿1.Выбери что написать правильно.
 a.select from * tabel
 b.select * fram tabel
 c.from * select tabel
 d.select * from tabel
+Ответ d
 
 2.Что-то здесь пропущенно найди.
 USE protseduur;
@@ -14,5 +15,6 @@ CREATE PROCEDURE AddProduct
 AS
 INSERT INTO kool(koolNimi, aadress, kontaktTeLEFON,regNumber) 
 VALUES(@nimi, @aadress, @telefon, @regNumber)
-
+GO 
 3.Какие ограничения ты знаешь?
+Not null , Unique , foreagn key , primary key , check
